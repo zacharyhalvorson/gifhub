@@ -1,10 +1,14 @@
 body{
     font-family: -apple-system, Helvetica;
     text-align: center;
-    padding: 3.5rem 1.5rem 0;
+    padding: 2rem 1.5rem 0;
     color: #444;
     margin: 0;
     font-size: 16px;
+
+    @media (min-width: 40em) {
+        padding-top: 3.5rem;
+    }
 }
 
 h1{
@@ -12,9 +16,11 @@ h1{
     font-size: 3rem;
     line-height: 1.2em;
     border-bottom: #CCC solid 1px;
-    padding: 1.5rem 0;
+    padding-bottom: 1rem;
+    margin: 0;
 
     @media (min-width: 40em) {
+        padding-bottom: 1.5rem;
         font-size: 4rem;
     }
 }
