@@ -1,6 +1,11 @@
 doctype
 html
-  head
-    link(rel="stylesheet" href="/main.css")
-  body
-    != yield
+    head
+        link(rel="stylesheet" href="/main.css")
+    body
+        block content
+            !=yield
+        block scripts
+            include partials/_blazy
+
+    

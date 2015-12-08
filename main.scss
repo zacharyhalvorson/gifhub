@@ -1,18 +1,22 @@
 body{
-  font-family: "Helvetica";
-  text-align: center;
-  padding: 50px 20px 0;
-  background: #f4f4f7;
-  color: #444;
-  margin: 0;
-  font-size: 16px;
+    font-family: -apple-system, Helvetica;
+    text-align: center;
+    padding: 3.5rem 1.5rem 0;
+    color: #444;
+    margin: 0;
+    font-size: 16px;
 }
 
 h1{
-  font-size: 65px;
-  line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
-  padding: 20px 0;
+
+    font-size: 3rem;
+    line-height: 1.2em;
+    border-bottom: #CCC solid 1px;
+    padding: 1.5rem 0;
+
+    @media (min-width: 40em) {
+        font-size: 4rem;
+    }
 }
 
 .gif {
